@@ -1,4 +1,4 @@
-const { Sequelize, DataTypes, Model } = require('sequelize')
+const { Sequelize } = require('sequelize')
 
 const userName = 'dev13134'
 const password = 'Vul35l4191'
@@ -11,14 +11,16 @@ const sequelize = new Sequelize(dbNmae, userName, password, {
   host: dbHost,
   port: port,
   dialect: 'mysql',
+  pool: {
+    max: 10,
+    min: 0,
+    acquire: 30000,
+    idle: 50000
+  },
   define: {
-      timestamps: false
+    timestamps: false,
+    freezeTableName: true
   }
 })
 
-sequelize.authenticate().then(() => {
-  console.log('Connection has been established successfully.')
-  sequelize.close()
-}).catch(error => {
-  console.error('Unable to connect to the database:', error)
-})
+module.exports = sequelize
