@@ -106,6 +106,6 @@ const sequelize = new Sequelize('sqlite::memory:', {
 
 # Menu
 
-- [Model Basics](./Sequelize/Model_Basics.md)
-- [Model Instances](./Sequelize/Model_Instance.md)
-- [Model Querying](./Sequelize/Model_Querying.md)
+- #### [Model Basics](./Model_Basics.md)
+- #### [Model Instances](./Model_Instance.md)
+- #### [Model Querying](./Model_Querying.md)

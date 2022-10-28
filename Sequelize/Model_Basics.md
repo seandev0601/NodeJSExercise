@@ -302,4 +302,4 @@ console.log(user.instanceLevelMethod()); // 'bar'
 console.log(user.getFullname()); // 'Jane Doe'
 ```
 
-# [Back Menu](./Sequelize/README#Menu)
+# [Back Menu](./README.md#Menu)

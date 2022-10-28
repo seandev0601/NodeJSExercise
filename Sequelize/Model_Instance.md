@@ -100,4 +100,4 @@ await jane.increment({
 await jane.increment(['age', 'cash'], { by: 2 });
 ```
 
-# [Back Menu](./Sequelize/README#Menu)
+# [Back Menu](./README.md#Menu)

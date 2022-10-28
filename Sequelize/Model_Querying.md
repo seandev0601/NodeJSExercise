@@ -354,4 +354,4 @@ await User.increment({age: 5}, { where: { id: 1 } }) // Will increase age to 15
 await User.increment({age: -5}, { where: { id: 1 } }) // Will decrease age to 5
 ```
 
-# [Back Menu](./Sequelize/README#Menu)
+# [Back Menu](./README.md#Menu)
