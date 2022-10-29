@@ -109,3 +109,12 @@ const sequelize = new Sequelize('sqlite::memory:', {
 - #### [Model Basics](./Model_Basics.md)
 - #### [Model Instances](./Model_Instance.md)
 - #### [Model Querying](./Model_Querying.md)
+- #### [Getters, Setters & Virtuals](./Getters_Setters_Virtuals.md)
+- #### [Validations & Constraints](./Validations_Constraints.md)
+- #### [Raw Queries](./Raw_Queries.md)
+
+---
+
+- #### [Associations](https://sequelize.org/docs/v6/core-concepts/assocs/)
+- #### [Advanced Association Concepts](https://sequelize.org/docs/v6/category/advanced-association-concepts/)
+- #### [Other topics](https://sequelize.org/docs/v6/category/other-topics/)
