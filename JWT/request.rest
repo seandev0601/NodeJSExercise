@@ -1,0 +1,28 @@
+POST http://locahost:8080/login
+Content-Type application/json 
+
+{
+  "username": "Emma"
+}
+
+###
+
+GET http://locahost:8080/posts
+Authorization: Bearer
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRW1tYSIsImlhdCI6MTY2NzE4NTE0OH0.AByguJbz9ebOYU8ttCdKpME-Q8CXyebYNZSwbJdKfac
+
+###
+
+POST http://localhost:4000/token Content-Type: application/json
+
+{
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRW1tYSIsImlhdCI6MTY2NzE5NjMyNX0.uwzGGbo7sTWfICCQfBapMa0IP0iVx3vbIjHv9qgI7WI"
+}
+
+###
+
+DELETE http://localhost:4000/logout Content-Type: application/json
+
+{
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiRW1tYSIsImlhdCI6MTY2NzE5NjMyNX0.uwzGGbo7sTWfICCQfBapMa0IP0iVx3vbIjHv9qgI7WI"
+}
