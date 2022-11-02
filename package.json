@@ -7,6 +7,7 @@
     "devJWT": "node ./JWT/server.js",
     "devJWTAuth": "node ./JWT/authServer.js",
     "devJWTC": "concurrently \"node ./JWT/server.js\" \"node ./JWT/authServer.js\"",
+    "devSwagger": "node ./Swagger/demo_swagger.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -25,6 +26,8 @@
     "node-fetch": "^3.2.10",
     "nodemailer": "^6.8.0",
     "sequelize": "^6.25.3",
-    "upper-case": "^2.0.2"
+    "swagger-ui-express": "^4.5.0",
+    "upper-case": "^2.0.2",
+    "yamljs": "^0.3.0"
   }
 }
